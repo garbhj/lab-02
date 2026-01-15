@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
         // https://stackoverflow.com/questions/47620335/how-to-get-the-position-of-a-selected-item-in-listview-onitemclicklistener
         // https://stackoverflow.com/questions/4834750/how-to-get-the-selected-item-from-listview
+        // https://developer.android.com/reference/android/widget/AdapterView
         cityList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
